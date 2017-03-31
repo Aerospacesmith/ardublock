@@ -8773,7 +8773,7 @@
 				<text>sensorRead</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="Port # (1-8)">
+				<BlockConnector connector-type="number" connector-kind="socket" label="Input # (1-8)">
 					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="plug" />
@@ -8790,7 +8790,7 @@
 				<text>Bump Sensor</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="Port #(1-8)">
+				<BlockConnector connector-type="number" connector-kind="socket" label="Input # (1-8)">
 					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 				<BlockConnector connector-type="boolean" connector-kind="plug" />
@@ -8807,7 +8807,7 @@
 				<text>Angle Sensor</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="Port # (1-7)">
+				<BlockConnector connector-type="number" connector-kind="socket" label="Input # (1-7)">
 					<DefaultArg genus-name="number" label="4" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="plug" />
@@ -8824,7 +8824,7 @@
 				<text>Light Sensor</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="Port # (1-7)">
+				<BlockConnector connector-type="number" connector-kind="socket" label="Input # (1-7)">
 					<DefaultArg genus-name="number" label="4" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="plug" />
@@ -8873,7 +8873,7 @@
 				<text>Motor Module</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="Motor #(1-4)">
+				<BlockConnector connector-type="number" connector-kind="socket" label="Output #(1-4)">
 					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="socket" label="Speed">
@@ -8895,7 +8895,7 @@
 				<text>Light Module</text>
 			</description>
 			<BlockConnectors>
-				<BlockConnector connector-type="number" connector-kind="socket" label="Light #(1-4)">
+				<BlockConnector connector-type="number" connector-kind="socket" label="Output #(1-4)">
 					<DefaultArg genus-name="number" label="1" />
 				</BlockConnector>
 				<BlockConnector connector-type="number" connector-kind="socket" label="Brightness">
@@ -9308,13 +9308,13 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="rokduino_CMD_MOTOR_3_FORWARD" kind="data" color="144 172 212" initlabel="bg.rokduino_CMD_MOTOR_3_FORWARD" editable-label="no">
+		<BlockGenus name="rokduino_CMD_MOTOR_3_CLOCKWISE" kind="data" color="144 172 212" initlabel="bg.rokduino_CMD_MOTOR_3_FORWARD" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="string" connector-kind="plug" position-type="mirror" />
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="rokduino_CMD_MOTOR_3_BACKWARD" kind="data" color="144 172 212" initlabel="bg.rokduino_CMD_MOTOR_3_BACKWARD" editable-label="no">
+		<BlockGenus name="rokduino_CMD_MOTOR_3_COUNTERCLOCKWISE" kind="data" color="144 172 212" initlabel="bg.rokduino_CMD_MOTOR_3_BACKWARD" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="string" connector-kind="plug" position-type="mirror" />
 			</BlockConnectors>
@@ -9326,13 +9326,13 @@
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="rokduino_CMD_MOTOR_4_FORWARD" kind="data" color="144 172 212" initlabel="bg.rokduino_CMD_MOTOR_4_FORWARD" editable-label="no">
+		<BlockGenus name="rokduino_CMD_MOTOR_4_CLOCKWISE" kind="data" color="144 172 212" initlabel="bg.rokduino_CMD_MOTOR_4_FORWARD" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="string" connector-kind="plug" position-type="mirror" />
 			</BlockConnectors>
 		</BlockGenus>
 		
-		<BlockGenus name="rokduino_CMD_MOTOR_4_BACKWARD" kind="data" color="144 172 212" initlabel="bg.rokduino_CMD_MOTOR_4_BACKWARD" editable-label="no">
+		<BlockGenus name="rokduino_CMD_MOTOR_4_COUNTERCLOCKWISE" kind="data" color="144 172 212" initlabel="bg.rokduino_CMD_MOTOR_4_BACKWARD" editable-label="no">
 			<BlockConnectors>
 				<BlockConnector connector-type="string" connector-kind="plug" position-type="mirror" />
 			</BlockConnectors>
@@ -10558,7 +10558,7 @@
 				
 			</BlockDrawer>
 			
-<!-- *****************End RokDuino***************** -->					
+<!-- *****************End RokDuino******************** -->					
 			
 		</BlockDrawerSet>
 	</BlockDrawerSets>
